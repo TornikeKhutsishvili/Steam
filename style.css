@@ -1,0 +1,343 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: #E9E9E9;
+    background-color: #212429;
+    background-size: 100%;
+    box-sizing: border-box;
+    background-position: -62vw 0;
+    background-repeat: no-repeat;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    background-image: url('https://store.akamai.steamstatic.com/public/shared/images/joinsteam/acct_creation_bg.jpg');
+}
+nav{
+    background-color: #171A21;
+    font-size: 14px;
+    width: 100%;
+    color: #B8B6B4;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0px 30px 80px;
+    margin-left: -20px;
+}
+.text1{
+    padding: 0px 0px 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.nav2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 22%;
+}
+ul li a{
+    color: #B8B6B4;
+    text-decoration: none;
+    padding: 4px 6px;
+}
+ul li a:hover{
+    color: white;
+}
+.img1{
+    height: 45px;
+}
+.img1{
+    cursor: pointer;
+}
+#language{
+    display: block;
+    background-color: #171A21;
+    color: #B8B6B4;
+    padding: 5px;
+    margin-top: 2px;
+    border: none;
+    font-size: 14px;
+    text-decoration: none;
+}
+#language:hover{
+    cursor: pointer;
+    color: white;
+}
+.install{
+    display: block;
+    background-color: #5C7E10;
+    border: none;
+    padding: 5px;
+    margin-top: 2px;
+    color: white;
+    text-decoration: none;
+}
+.install:hover{
+    color: white;
+}
+.fa-solid:hover{
+    cursor: pointer;
+}
+.login{
+    display: block;
+    text-decoration: none;
+    color: #B8B6B4;
+    padding: 5px;
+    margin-top: 2px;
+    border-right: 1px solid #B8B6B4;
+}
+.login:hover{
+    color: white;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 85vh;
+}
+.main2{
+    margin: 40px 0px 0px -200px;
+    width: 660px;
+    height: 600px;
+    display: flex;
+}
+.span1{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 32px;
+}
+.form1{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 25px 0px;
+    font-size: 15px;
+    color: #B8B6B4;
+}
+input{
+    display: block;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 8px 6px;
+    background-color: #32353C;
+    border: none;
+}
+select{
+    display: block;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 8px 6px;
+    background-color: #32353C;
+    border: none;
+    color: white;
+}
+label{
+    width: 100%;
+    box-sizing: border-box;
+}
+.checkbox1{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 321px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #525252;
+    background-color: #222;
+    padding: 5px;
+}
+.checkbox1-1{
+    display: flex;
+    border-radius: 3px;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    border: 1px solid #525252;
+}
+.rrob{
+    display: flex;
+    align-items: center;
+}
+.lrob{
+    display: flex;
+    align-items: center;
+}
+.lrob input{
+    width: 25px;
+    height: 25px;
+}
+.rrob img{
+    width: 50px;
+    height: 50px;
+    margin:10px;
+}
+.image{
+    display: block;
+    box-sizing: border-box;
+    margin: -10px 0px 0px 170px;
+    width: 30px;
+    height: 30px;
+    background-size: 32px;
+}
+.textlast{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 25px 0px 0px 0px;
+    color: #B8B6B4;
+}
+.checkbox2{
+    width: 100%;
+    font-size: 14px;
+}
+.checkbox2-1{
+    display: inline;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+}
+.years1{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.years1:hover{
+    color: #1a44c2;
+}
+button{
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+    color: white;
+    padding: 10px 55px;
+    margin: 40px 0px 50px 0px;
+    background: #75b022;
+    background: -webkit-linear-gradient( top, #75b022 5%, #588a1b 95%);
+    background: linear-gradient( to bottom, #75b022 5%, #588a1b 95%);
+    background: linear-gradient( to right, #47bfff 5%, #1a44c2 60%);
+    box-shadow: 2px 2px 5px rgb(0 0 0 / 20%);
+    background-position: 25%;
+    background-size: 330% 100%;
+}
+button:hover{
+    cursor: pointer;
+    background: #45ace4;
+}
+
+::-webkit-Scrollbar {
+	width:15px;
+} 
+::-webkit-Scrollbar-thumb {
+	border-radius:2px;
+	background-color:#000;
+} 
+::-webkit-Scrollbar-thumb:hover {
+	background:#777;
+}
+
+.hamburger{
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+#chk{
+    display: none;
+}
+.x{
+    display: none;
+}
+
+@media screen and (max-width: 985px){
+    nav{
+        height: 70px;
+        display: flex;
+    }
+    .nav1{
+        display: inline-block;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    .hamblabel{
+        width: 30px;
+        display: block;
+    }
+    .nav2{
+        display: none;
+    }
+    img.img1{
+        display: block;
+        width: 100%;
+        margin-top: -60px;
+    }
+    .hamburger{
+        display: flex;
+        justify-content: flex-start;
+        width: 70px;
+        height: 70px;
+        background-color: rgb(67, 67, 67);
+    }
+    ul.text1{
+        margin: 0px;
+        padding: 0px;
+    }
+    .main2{
+        margin: 0px;
+        width: 660px;
+        height: 600px;
+        display: flex;
+    }
+    label{
+        display: block;
+    }
+    input{
+        width: 100%;
+    }
+    select{
+        width: 100%;
+    }
+    button{
+        width: 100%;
+    }
+    .text1{
+        visibility: hidden;
+        position: absolute;
+    }
+    .x{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+    ul{
+        visibility: hidden;
+        transition: 0.7s;
+        position: absolute;
+        opacity: 0.3;
+        width: 300px;
+        box-sizing: border-box;
+        flex-direction: column;
+        margin: 10px;
+        margin-top: -55px;
+        height: 100vh;
+        font-size: 20px;
+        height: calc(100vh - 55px);
+    }
+    ul li{
+        width: 100%;
+        box-sizing: border-box;
+        border-bottom: 1px solid #000000;
+        padding: 20px 0px;
+        margin-top: 15px;
+    }
+    #chk:checked ~ ul{
+        visibility: visible;
+        background-color: #171A21;
+        opacity: 1;
+        margin-left: 0px;
+        margin-top: -55px;
+        flex-direction: column;
+        font-size: 20px;
+        height: 100vh;
+    }
+}
